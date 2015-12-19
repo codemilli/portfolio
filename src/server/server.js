@@ -22,7 +22,7 @@ const renderFullPage = (html, initialState) => {
     <html>
       <head>
         <meta charset="utf-8">
-        <title>Full Stack Web Developer based in London</title>
+        <title>Full Stack Web Developer based in Seoul</title>
         <link rel="shortcut icon" href="/public/favicon.ico">
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
