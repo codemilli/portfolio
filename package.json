@@ -1,18 +1,14 @@
 
 {
-  "name": "portfolio-redux-app",
+  "name": "hckrmoon",
   "version": "0.0.1",
-  "description": "A portfolio template built with Redux and React",
+  "description": "A portfolio built with Redux and React",
   "scripts": {
     "slate": "rm -rf node_modules && npm install",
     "clean": "rm -rf dist",
     "start": "NODE_ENV=development node src/server/index.js --progress --colors --profile",
     "start-prod": "NODE_ENV=production node src/server/index.js --progress --colors --profile",
     "build": "npm run clean && NODE_ENV=production webpack -p --progress --colors --profile"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/caljrimmer/portfolio-redux-app.git"
   },
   "license": "MIT",
   "dependencies": {
