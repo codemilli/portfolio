@@ -60,38 +60,18 @@
 * Individual
 */
 
-.goldmans {
-	background:#fff url(assets/goldmans.jpg) top no-repeat;
+.osquare {
+	background:#fff url(assets/osquarecorp.png) top no-repeat;
+    background-size: contain;
 }
 
-.orange {
-	background:#fff url(assets/orange.jpg) top no-repeat;
+.thisground {
+    background:#fff url(assets/thisground.png) top no-repeat;
+    background-size: contain;
 }
 
-.tesco {
-	background:#fff url(assets/tesco.png) top no-repeat;
+.comevote {
+    background:#fff url(assets/comevote.png) top no-repeat;
+    background-size: contain;
 }
 
-.timeout {
-	background:#fff url(assets/timeout.png) top no-repeat;
-}
-
-.wiley {
-	background:#fff url(assets/wiley.png) top no-repeat;
-}
-
-.hellas {
-	background:#fff url(assets/hellas.png) top no-repeat;
-}
-
-.shipserv {
-	background:#fff url(assets/shipserv.png) top no-repeat;
-}
-
-.covestor {
-	background:#fff url(assets/covestor.png) top no-repeat;
-}
-
-.pwul {
-	background:#fff url(assets/pwul.jpg) top no-repeat;
-}

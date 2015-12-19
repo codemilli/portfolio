@@ -1,104 +1,45 @@
 export function getPortfolio() {
   return [
     {
-    	link : 'http://www.goldmansachs.com',
-    	title : 'Goldman Sachs',
-    	classname : 'goldmans',
+    	link : 'http://www.ggumim.co.kr',
+    	title : 'Osquarecorp',
+    	classname : 'osquare',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
+    			skills : 'Angular, React'
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Webpack'
+    			skills : 'Node, MongoDB'
     		}
     	]
     },
     {
-    	link : 'http://www.libon.com/',
-    	title : 'Orange (Libon)',
-    	classname : 'orange',
+    	link : 'http://www.thisground.com/',
+    	title : 'THISGROUND',
+    	classname : 'thisground',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'Backbone, WebRTC, FireFoxOS'
+    			skills : 'Angular'
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Grunt'
+    			skills : 'Node, MongoDB'
     		}
     	]
     },
-    {
-    	link : 'http://www.pwul.net',
-    	title : 'Pay What You Like',
-    	classname : 'pwul',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
-    		},
-    		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Gulp'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.timeout.com/london/card',
-    	title : 'Timeout',
-    	classname : 'timeout',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.tesco.com/direct',
-    	title : 'Tesco Entertainment',
-    	classname : 'tesco',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://onlinelibrary.wiley.com',
-    	title : 'John Wiley and Sons',
-    	classname : 'wiley',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.covestor.com',
-    	title : 'Covestor',
-    	classname : 'covestor',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.shipserv.com',
-    	title : 'ShipServ',
-    	classname : 'shipserv',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
-    }
+		{
+			link : 'http://www.comevote.org/',
+			title : 'ComeVote',
+			classname : 'comevote',
+			roles : [
+				{
+					title : 'FullStack Engineer',
+					skills : 'Meteor, Handlebar'
+				}
+			]
+		}
   ]
 }
