@@ -2,7 +2,7 @@
 
 A Portfolio example of an isomorphic rendering application in React and Redux.
 
-# HCKRMOON
+## HCKRMOON
 
 A Fullstack Engineer loving JavaScript.
 
