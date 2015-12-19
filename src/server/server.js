@@ -23,7 +23,7 @@ const renderFullPage = (html, initialState) => {
       <head>
         <meta charset="utf-8">
         <title>Full Stack Web Developer based in London</title>
-        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="shortcut icon" href="/public/favicon.ico">
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
       <body>
@@ -41,8 +41,10 @@ if(process.env.NODE_ENV !== 'production'){
   const compiler = webpack(webpackConfig);
   app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: webpackConfig.output.publicPath }));
   app.use(webpackHotMiddleware(compiler));
+  app.use('/public', express.static(__dirname + '/../../public'));
 }else{
   app.use('/static', express.static(__dirname + '/../../dist'));
+  app.use('/public', express.static(__dirname + '/../../public'));
 }
 
 app.get('/*', function (req, res) {
